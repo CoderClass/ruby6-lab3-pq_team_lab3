@@ -13,6 +13,7 @@ group :development, :test do
 end
 group :development do
   gem 'web-console', '~> 2.0'
+  gem 'guard-rspec', require: false
   gem 'listen', '~> 3.0.5'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
@@ -25,7 +26,7 @@ gem 'slim-rails'
 group :development do
   # gem 'rails_layout'
   gem 'spring-commands-rspec'
-  # gem 'guard-rspec', require: false
+  gem 'guard-rspec', require: false
 end
 group :development, :test do
   gem 'factory_girl_rails'
